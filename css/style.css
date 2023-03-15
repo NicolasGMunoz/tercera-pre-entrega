@@ -1,0 +1,69 @@
+.cabecera {
+  justify-content: flex-end;
+  background-color: transparent;
+  font-size: large;
+  color: white;
+}
+
+.botoncabecera {
+  border: solid white 2px;
+}
+
+body {
+  background-color: #171425;
+}
+
+h1 {
+  color: gray;
+  font-family: "Comic Neue", cursive;
+  text-align: center;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.burich {
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: rgb(25, 3, 41);
+  color: hsl(0, 1%, 71%);
+  text-align: center;
+}
+
+footer span {
+  font-size: 30px;
+}
+
+.p_f_h {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  font-family: "Comic Neue", cursive;
+}
+
+.p_f_p {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-family: "Comic Neue", cursive;
+  list-style: none;
+}
+
+.th2 {
+  text-align: center;
+  color: gray;
+  font-family: "Comic Neue", cursive;
+}
+
+.text {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: "Coming Soon", cursive;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,14 @@
+.p_f_h {
+    text-align: center;
+    margin-top: 50px;
+    color: map-get($colors, cw);
+    font-family: map-get($fonts, comic), cursive;
+}
+
+.p_f_p {
+    text-align: center;
+    margin-top: 10px;
+    color: map-get($colors, cw);
+    font-family: map-get($fonts, comic), cursive;
+    list-style: none;
+}

@@ -1,0 +1,28 @@
+body {
+    background-color: $bg-body;
+}
+
+h1 {
+    color: map-get($colors , cg);
+    font-family: map-get($fonts, comic), cursive;
+    text-align: center;
+}
+
+.transparent {
+    background-color: $bt;
+}
+
+.burich{
+    text-decoration: none;
+}
+
+footer { 
+    margin-top: 20px;
+    background-color: $bg-footer ;
+    color: map-get($colors, cff) ;
+    text-align: center;
+}
+
+footer span{
+    font-size: 30px;
+}

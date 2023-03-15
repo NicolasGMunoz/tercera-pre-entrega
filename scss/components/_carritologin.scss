@@ -1,0 +1,6 @@
+.text {
+    color: map-get($colors , cw );
+    padding: 20px;
+    text-align: center;
+    font-family: map-get($fonts, coming ), cursive;
+}
