@@ -1,9 +1,12 @@
 // base
 @import './base/variables';
 @import './base/maps';
+@import './base/mixin';
+@import './base/extend';
 // components
 @import './components/header';
 @import './components/body';
 @import './components/preguntasfrecuentes';
 @import './components/tienda';
 @import './components/carritologin';
+

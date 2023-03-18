@@ -1,3 +1,9 @@
+.p_f_p, .p_f_h {
+  text-align: center;
+  color: white;
+  font-family: "Comic Neue", cursive;
+}
+
 .cabecera {
   justify-content: flex-end;
   background-color: transparent;
@@ -23,6 +29,11 @@ h1 {
   background-color: transparent;
 }
 
+.lb {
+  font-size: 20px;
+  font-family: comic Neue;
+}
+
 .burich {
   text-decoration: none;
 }
@@ -39,24 +50,24 @@ footer span {
 }
 
 .p_f_h {
-  text-align: center;
   margin-top: 50px;
-  color: white;
-  font-family: "Comic Neue", cursive;
 }
 
 .p_f_p {
-  text-align: center;
   margin-top: 10px;
-  color: white;
-  font-family: "Comic Neue", cursive;
   list-style: none;
+  border: solid 1px white;
 }
 
 .th2 {
   text-align: center;
   color: gray;
   font-family: "Comic Neue", cursive;
+}
+
+.lb {
+  font-size: 20px;
+  font-family: comic Neue;
 }
 
 .text {

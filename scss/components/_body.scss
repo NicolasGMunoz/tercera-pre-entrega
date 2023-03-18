@@ -12,6 +12,10 @@ h1 {
     background-color: $bt;
 }
 
+.lb{
+    @include letrasbotones(comic Neue, 20px)
+}
+
 .burich{
     text-decoration: none;
 }

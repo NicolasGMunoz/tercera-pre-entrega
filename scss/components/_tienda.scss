@@ -3,3 +3,7 @@
     color: map-get($colors, cg);
     font-family: map-get($fonts, comic), cursive;
 }
+
+.lb{
+    @include letrasbotones(comic Neue, 20px)
+}
