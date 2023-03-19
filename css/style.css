@@ -29,9 +29,17 @@ h1 {
   background-color: transparent;
 }
 
+.lb:hover {
+  transform: scale(1.3);
+  background-color: transparent;
+}
+
 .lb {
   font-size: 20px;
   font-family: comic Neue;
+  transition: all 1s;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .burich {
@@ -56,7 +64,14 @@ footer span {
 .p_f_p {
   margin-top: 10px;
   list-style: none;
-  border: solid 1px white;
+}
+
+.caja:hover {
+  transform: scale(1.5);
+}
+
+.caja1 {
+  transition: all 1s;
 }
 
 .th2 {
@@ -65,7 +80,13 @@ footer span {
   font-family: "Comic Neue", cursive;
 }
 
-.lb {
+.tarjeta:hover {
+  transform: scale(1.5);
+  background-color: transparent;
+}
+
+.tarjeta {
+  transition: all 1s;
   font-size: 20px;
   font-family: comic Neue;
 }

@@ -4,6 +4,14 @@
     font-family: map-get($fonts, comic), cursive;
 }
 
-.lb{
-    @include letrasbotones(comic Neue, 20px)
+
+
+.tarjeta:hover{
+    transform: scale(1.5);
+    background-color: $bt;
+}
+
+.tarjeta{
+    transition: all 1s;
+    @include letrasbotones(comic Neue, 20px);
 }
