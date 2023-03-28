@@ -1,0 +1,28 @@
+.burich{
+    text-decoration: none;
+    background-color: $bg-footer ;
+    color: map-get($colors, cff) ;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.burich:hover{
+    transform: scale(1.1);
+    color: map-get($colors, cw);
+}
+
+footer { 
+    margin-top: 20px;
+    background-color: $bg-footer ;
+    color: map-get($colors, cff) ;
+    text-align: center;
+}
+
+.links{
+    font-size: 30px;
+    justify-content: center;
+}
+
+.pp {
+    font-size: 20px;
+}

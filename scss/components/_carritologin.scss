@@ -4,3 +4,9 @@
     text-align: center;
     font-family: map-get($fonts, coming ), cursive;
 }
+
+.text2 {
+    color: map-get($colors , cw );
+    text-align: center;
+    font-family: map-get($fonts, coming ), cursive;
+}

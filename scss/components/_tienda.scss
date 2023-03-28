@@ -1,13 +1,25 @@
 .th2{
     text-align: center;
-    color: map-get($colors, cg);
-    font-family: map-get($fonts, comic), cursive;
+    color: map-get($colors, cw);
+    font-family: map-get($fonts, coming), cursive;
+}
+
+.prueba{
+    transition: all 0.8s;
+    color: transparent;
 }
 
 
+.prueba:hover{
+    transition: all 0.8s;
+    color: black;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
 
 .tarjeta:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     background-color: $bt;
 }
 

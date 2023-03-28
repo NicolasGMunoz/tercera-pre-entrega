@@ -3,8 +3,8 @@ body {
 }
 
 h1 {
-    color: map-get($colors , cg);
-    font-family: map-get($fonts, comic), cursive;
+    color: map-get($colors , cw);
+    font-family: map-get($fonts, coming), cursive;
     text-align: center;
 }
 
@@ -24,17 +24,3 @@ h1 {
     margin-top: 10px;
 }
 
-.burich{
-    text-decoration: none;
-}
-
-footer { 
-    margin-top: 20px;
-    background-color: $bg-footer ;
-    color: map-get($colors, cff) ;
-    text-align: center;
-}
-
-footer span{
-    font-size: 30px;
-}
