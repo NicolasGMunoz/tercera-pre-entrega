@@ -4,8 +4,10 @@ body {
 
 h1 {
     color: map-get($colors , cw);
-    font-family: map-get($fonts, coming), cursive;
+    font-family: map-get($fonts, edu ), cursive;
     text-align: center;
+    background-color:#312B4F;
+    border: solid gray 1px;
 }
 
 .transparent {
@@ -24,3 +26,24 @@ h1 {
     margin-top: 10px;
 }
 
+.crb{
+    width: 35%;
+}
+
+.text3{
+    color: map-get($colors , cw );
+    padding: 20px;
+    text-align: center;
+    font-family: map-get($fonts, edu ), cursive;
+    font-size: x-large;
+}
+
+.text4{
+    color: map-get($colors , cw );
+    padding: 20px;
+    text-align: center;
+    font-family: map-get($fonts, edu ), cursive;
+    font-size: xx-large;
+    background-color:#312B4F;
+    border: solid gray 1px;
+}

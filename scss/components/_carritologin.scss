@@ -2,7 +2,8 @@
     color: map-get($colors , cw );
     padding: 20px;
     text-align: center;
-    font-family: map-get($fonts, coming ), cursive;
+    font-family: map-get($fonts, edu ), cursive;
+    font-size: larger;
 }
 
 .text2 {
